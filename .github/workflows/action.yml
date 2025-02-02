@@ -1,1 +1,14 @@
+name: Example Action
 
+on: 
+  push:
+    branches:
+      - main  # This triggers the action on a push to the main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # You can choose another OS if you want, like 'windows-latest' or 'macos-latest'
+    
+    steps:
+      - name: 21f3000958@ds.study.iitm.ac.in  # This is the step name with your email
+        run: echo "Hello, world!"  # This is the command that will be run i
